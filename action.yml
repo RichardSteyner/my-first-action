@@ -1,0 +1,21 @@
+name: 'Hello World in Github Actions Richard Steyner'
+description: 'A simple hello world action'
+inputs:
+  who-to-greet:
+    description: 'Who to greet'
+    required: true
+    default: 'World'
+  outputs:
+    greeting:
+      description: 'The greeting message'
+      value: 'Hello ${{ inputs.who-to-greet }}!'
+    time:
+      description: 'The current time'
+runs:
+  using: 'node20'
+  main: 'main.js'
+branding:
+  icon: 'smile'
+  color: 'blue'
+  logo: 'https://raw.githubusercontent.com/richardsteyner/hello-world-action/main/logo.png'
+  homepage: 'https://codifacil.club'
