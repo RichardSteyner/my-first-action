@@ -8,7 +8,6 @@ inputs:
   outputs:
     greeting:
       description: 'The greeting message'
-      value: 'Hello ${{ inputs.who-to-greet }}!'
     time:
       description: 'The current time'
 runs:
