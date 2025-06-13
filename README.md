@@ -21,7 +21,7 @@ A simple hello world GitHub Action.
 
 ```yaml
 - name: Hello World Action
-  uses: RichardSteyner/my-first-action@v1
+  uses: RichardSteyner/my-first-action@v1.0
   with:
     who-to-greet: "GitHub User"
 ```
