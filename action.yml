@@ -15,7 +15,7 @@ runs:
   using: 'node20'
   main: 'main.js'
 branding:
-  icon: 'smile'
+  icon: 'chevron-up'
   color: 'blue'
   logo: 'https://raw.githubusercontent.com/richardsteyner/hello-world-action/main/logo.png'
   homepage: 'https://codifacil.club'
